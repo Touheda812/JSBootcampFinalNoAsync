@@ -5,7 +5,7 @@ const {
   twoDArray,
 } = require('./2DArray');
 
-describe('twoDArray', () => {
+describe.only('twoDArray', () => {
   it('is a function', () => {
     expect(typeof twoDArray).to.equal('function');
   });

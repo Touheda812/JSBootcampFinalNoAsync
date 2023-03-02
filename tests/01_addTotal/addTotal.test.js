@@ -5,7 +5,7 @@ const {
   addTotal,
 } = require('./addTotal');
 
-describe('addTotal', () => {
+describe.only('addTotal', () => {
   after(() => {
     spy.restore('reduce');
   });

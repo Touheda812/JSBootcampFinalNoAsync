@@ -5,7 +5,7 @@ const {
   filterCart,
 } = require('./filterCart');
 
-describe('filterCart', () => {
+describe.only('filterCart', () => {
   after(() => {
     spy.restore('filter');
   });

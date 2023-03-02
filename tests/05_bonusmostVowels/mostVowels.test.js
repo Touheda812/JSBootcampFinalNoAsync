@@ -4,7 +4,7 @@ const {
   mostVowels,
 } = require('./mostVowels');
 
-describe('mostVowels', () => {
+describe.only('mostVowels', () => {
   it('is a function', () => {
     expect(typeof mostVowels).to.equal('function');
   });

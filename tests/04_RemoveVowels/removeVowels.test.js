@@ -4,7 +4,7 @@ const {
   removeVowels,
 } = require('./removeVowels');
 
-describe('removeVowels', () => {
+describe.only('removeVowels', () => {
   it(' removeVowels is a function', () => {
     expect(typeof removeVowels).to.equal('function');
   });

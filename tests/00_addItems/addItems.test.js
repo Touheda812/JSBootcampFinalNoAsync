@@ -4,7 +4,7 @@ const {
   addItems,
 } = require('./addItems');
 
-describe('addItems', () => {
+describe.only('addItems', () => {
   it('is a function', () => {
     expect(typeof addItems).to.equal('function');
   });
