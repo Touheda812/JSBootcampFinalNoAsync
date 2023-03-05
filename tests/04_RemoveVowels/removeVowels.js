@@ -3,7 +3,7 @@
 // }
 
 // module.exports = { removeVowels };
-
+// great!
 function removeVowels(str) {
     // create an array of vowels to remove
     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];

@@ -1,4 +1,5 @@
 function mostVowels(str) {
+  // nice work!
     const words = str.split(' ');
     let maxVowelCount = 0;
     let maxVowelWord = '';
@@ -9,6 +10,7 @@ function mostVowels(str) {
   
       for (let j = 0; j < word.length; j++) {
         const letter = word[j].toLowerCase();
+        // it might be nice to make a vowels variable and use includes method so not so many || but that's a nitpick. Nice job overall!
         if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u') {
           vowelCount++;
         }

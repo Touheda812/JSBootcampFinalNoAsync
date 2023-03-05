@@ -1,3 +1,4 @@
+// looks good! Love the comments to explain your code.
 function addTotal(cart, state) {
   // Define tax rates for each state
   const taxRates = {
